@@ -172,6 +172,13 @@ body {
   right: 20%;
 }
 
+#skill {
+  width: 100%;
+  padding: 5% 10%;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
 .design-text {
   width: 30vw;
   align-self: flex-start;
@@ -349,11 +356,11 @@ body {
     padding: 0 5%;
   }
 
-  .navbar p{
+  .navbar p {
     font-size: 1.5em;
   }
 
-  .navbar .bi{
+  .navbar .bi {
     font-size: 0.8em;
   }
 
@@ -401,36 +408,36 @@ body {
     width: inherit;
   }
 
-  #skill{
+  #skill {
     padding: 5% 10%;
     flex-direction: column;
     justify-content: auto;
   }
 
-  .design-text{
+  .design-text {
     width: 100%;
     align-self: auto;
     text-align: start;
   }
-  .design-text h1{
+  .design-text h1 {
     font-size: xx-large;
   }
-  .design-text span{
+  .design-text span {
     font-size: 0.9em;
   }
 
-  .engenharia-text{
+  .engenharia-text {
     margin-top: 10%;
     width: 100%;
     align-self: auto;
     text-align: end;
   }
 
-  .engenharia-text h1{
-  font-size: xx-large;
+  .engenharia-text h1 {
+    font-size: xx-large;
   }
 
-  .engenharia-text span{
+  .engenharia-text span {
     font-size: 0.9em;
   }
 
@@ -443,13 +450,12 @@ body {
     flex-wrap: nowrap;
     padding: 5% 10%;
   }
-  
+
   #email h2 {
     color: #555555;
     font-size: 1.5em;
     line-height: 1;
     text-align: start;
-
   }
   #email p {
     font-size: 1.3em;
@@ -457,7 +463,7 @@ body {
     text-align: start;
     margin: 0;
   }
-  
+
   #email div {
     width: auto;
     flex-wrap: nowrap;
@@ -465,34 +471,33 @@ body {
     align-self: start;
   }
 
-  .i-part{
+  .i-part {
     width: auto;
     margin: 0;
   }
 
-  .i-all{
+  .i-all {
     width: auto;
   }
 
-  .i-button{
+  .i-button {
     margin-top: 5%;
     width: 40%;
   }
 
-  .map{
+  .map {
     flex-direction: column;
   }
 
-  .map-item{
+  .map-item {
     margin-top: 5%;
   }
 
-  .copyright{
+  .copyright {
     flex-direction: column-reverse;
   }
 
-  .svg-right{
+  .svg-right {
     visibility: hidden;
   }
-
 }
